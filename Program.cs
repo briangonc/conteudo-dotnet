@@ -1,7 +1,7 @@
 ﻿using BootcampDotNet.Models;
 
 int quantidadeEmEstoque = 10;
-int quantidadeCompra = 900;
+int quantidadeCompra = 4;
 bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
 Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
