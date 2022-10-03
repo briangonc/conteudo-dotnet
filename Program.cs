@@ -1,23 +1,82 @@
 ﻿using BootcampDotNet.Models;
 
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine();
+Calculadora calc = new Calculadora();
 
-switch (letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");
-        break;
+calc.Somar(10, 30);
+calc.Dividir(10, 30);
+calc.Multiplicar(10, 30);
+calc.Subtrair(10, 30);
 
-    default:
-        Console.WriteLine("Não é uma vogal");
-        break;
-}
 
+
+
+
+
+
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// bool tarde = true;
+// bool choveu = true;
+
+// if (!choveu && !tarde)
+// {
+//     Console.WriteLine("Vou pedalar");
+// }
+// else
+// {
+//     Console.WriteLine("Vou pedalar outro dia");
+// }
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// bool possuiPresencaMinima = true;
+// double media = 6;
+
+// if (possuiPresencaMinima && media >= 7) // Se uma condição apenas for falsa, ele fará a condição FALSA do if
+// {
+//     Console.WriteLine("Aprovado");
+// }
+// else
+// {
+//     Console.WriteLine("Reprovado");
+// }
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// bool maiorDeIdade = false; // Aqui eu defino que, de acordo com a maior idade, a informação é TRUE. na raíz da definição do pipe
+// bool autorizacaoDoResponsavel = false; // Aqui eu defino que, de acordo com a maior idade, a informação é FALSE, na raíz da definição do pipe
+
+// if (maiorDeIdade || autorizacaoDoResponsavel) // O operador OU verifica qual é a verdadeira. OU maiorIdade OU autorizaçãoDoResponsável
+// {
+//     Console.WriteLine("Condição Verdadeira!"); // Qual opção é VERDADEIRO(true)? Se qualquer uma das duas for TRUE, ele vai imprimir isso aqui
+// }
+// else
+// {
+//     Console.WriteLine("Condição Falsa"); // Essa opção só será exibida se as 2 opções forem falsas.
+// }
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Console.WriteLine("Digite uma letra");
+// string letra = Console.ReadLine();
+
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");
+//         break;
+
+//     default:
+//         Console.WriteLine("Não é uma vogal");
+//         break;
+// }
 
 
 
@@ -43,7 +102,7 @@ switch (letra)
 //     Console.WriteLine("Desculpe, não temos estoque suficiente");
 // }
 
-
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // string a = "15";
 // int b = 0;
@@ -51,7 +110,7 @@ switch (letra)
 
 // Console.WriteLine(b);
 
-
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // int a = "5";
 // int a = Convert.ToInt32("5");
@@ -60,7 +119,7 @@ switch (letra)
 
 // double c = double.MaxValue;
 
-
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // int a = 10;
 // int b = 20;
@@ -71,10 +130,12 @@ switch (letra)
 
 // Console.WriteLine(c);
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // DateTime dataAtual = DateTime.Now.AddDays(5);
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // string apresentacao = "Olá, Mundo!";
 // apresentacao = "Olá, mundo de novo";
@@ -90,8 +151,11 @@ switch (letra)
 // Console.WriteLine("Valor da variável preco: " + preco);
 // Console.WriteLine("Valor da variável condicao: " + condicao);
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Pessoa pessoa = new Pessoa();
 
 // pessoa.Idade = 26;
 // pessoa.Apresentar();
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
