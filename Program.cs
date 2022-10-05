@@ -1,19 +1,33 @@
 ﻿using BootcampDotNet.Models;
 
+// int numeroIncremento = 10;
+
+// Console.WriteLine($" O número a ser incrementado é o: " + numeroIncremento);
+// Console.WriteLine("Incrementando o 10");
+// numeroIncremento++;
+// Console.WriteLine(numeroIncremento);
+
+
+
+// int numeroDecremento = 10;
+// Console.WriteLine($" O número a ser decrementado é o: " + numeroDecremento);
+// Console.WriteLine("Decrementando o 10");
+// numeroDecremento--;
+// Console.WriteLine(numeroDecremento);
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Calculadora calc = new Calculadora();
 
 calc.Somar(10, 30);
 calc.Dividir(10, 30);
 calc.Multiplicar(10, 30);
 calc.Subtrair(10, 30);
-
-
-
-
-
-
-
-
+calc.Potencia(3, 3);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+calc.RaizQuadrada(257);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
