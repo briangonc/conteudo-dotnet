@@ -1,5 +1,47 @@
 ﻿using BootcampDotNet.Models;
 
+int soma = 0;
+int numero = 0;
+
+do
+{
+    Console.WriteLine("Digite um número (0 para parar)");
+    numero = Convert.ToInt32(Console.ReadLine());
+    soma += numero;
+} while (numero != 0);
+
+Console.WriteLine($"Total de soma dos números digitados é: {soma}");
+
+
+
+
+
+
+
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// int numero = 5;
+// int contador = 0;
+
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+//     contador++;
+// }
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// int numero = 5;
+
+// for (int contador = 0; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// }
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 // int numeroIncremento = 10;
 
 // Console.WriteLine($" O número a ser incrementado é o: " + numeroIncremento);
@@ -17,17 +59,17 @@
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
-calc.Somar(10, 30);
-calc.Dividir(10, 30);
-calc.Multiplicar(10, 30);
-calc.Subtrair(10, 30);
-calc.Potencia(3, 3);
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
-calc.RaizQuadrada(257);
+// calc.Somar(10, 30);
+// calc.Dividir(10, 30);
+// calc.Multiplicar(10, 30);
+// calc.Subtrair(10, 30);
+// calc.Potencia(3, 3);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+// calc.RaizQuadrada(257);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
