@@ -6,9 +6,20 @@ arrayInteiros[0] = 72;
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 50;
 
+// Percorrendo com for
+Console.WriteLine("Percorrendo o array com o for");
 for (int contador = 0; contador < arrayInteiros.Length; contador++)
 {
     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+}
+
+// Percorrendo com foreach
+int contadorForEach = 0;
+Console.WriteLine("Percorrendo o array com o foreach");
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição Nº {contadorForEach} - {arrayInteiros[contadorForEach]}");
+    contadorForEach++;
 }
 
 
