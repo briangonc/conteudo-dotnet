@@ -1,0 +1,12 @@
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\bin\Debug\net6.0\BootcampDotNet.Common.deps.json
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\bin\Debug\net6.0\BootcampDotNet.Common.dll
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\bin\Debug\net6.0\BootcampDotNet.Common.pdb
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\BootcampDotNet.Common.csproj.AssemblyReference.cache
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\BootcampDotNet.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\BootcampDotNet.Common.AssemblyInfoInputs.cache
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\BootcampDotNet.Common.AssemblyInfo.cs
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\BootcampDotNet.Common.csproj.CoreCompileInputs.cache
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\BootcampDotNet.Common.dll
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\refint\BootcampDotNet.Common.dll
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\BootcampDotNet.Common.pdb
+D:\CURSOS\BootcampDotNet\BootcampDotNet.Common\obj\Debug\net6.0\ref\BootcampDotNet.Common.dll

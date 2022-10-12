@@ -1,5 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+<ItemGroup>
+  <ProjectReference Include ="..\BootcampDotNet.Common\BootcampDotNet.Common.csproj" />
+</ItemGroup>
   <PropertyGroup>
     <OutputType>Exe</OutputType> <!-- O tipo de saída será executável -->
     <TargetFramework>net6.0</TargetFramework> <!-- Versão do .NET que está sendo utilizada -->

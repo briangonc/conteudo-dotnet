@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BootcampDotNet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BootcampDotNet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BootcampDotNet.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BootcampDotNet.Common/1.0.0": {
+      "type": "project",
+      "path": "../BootcampDotNet.Common/BootcampDotNet.Common.csproj",
+      "msbuildProject": "../BootcampDotNet.Common/BootcampDotNet.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BootcampDotNet.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\souza\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CURSOS\\BootcampDotNet\\BootcampDotNet.csproj",
+      "projectUniqueName": "D:\\CURSOS\\BootcampDotNet\\BootcampDotNet\\BootcampDotNet.csproj",
       "projectName": "BootcampDotNet",
-      "projectPath": "D:\\CURSOS\\BootcampDotNet\\BootcampDotNet.csproj",
+      "projectPath": "D:\\CURSOS\\BootcampDotNet\\BootcampDotNet\\BootcampDotNet.csproj",
       "packagesPath": "C:\\Users\\souza\\.nuget\\packages\\",
-      "outputPath": "D:\\CURSOS\\BootcampDotNet\\obj\\",
+      "outputPath": "D:\\CURSOS\\BootcampDotNet\\BootcampDotNet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\souza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -28,7 +47,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CURSOS\\BootcampDotNet\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj": {
+              "projectPath": "D:\\CURSOS\\BootcampDotNet\\BootcampDotNet.Common\\BootcampDotNet.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
