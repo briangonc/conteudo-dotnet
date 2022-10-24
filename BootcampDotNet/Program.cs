@@ -1,25 +1,9 @@
 ﻿using BootcampDotNet.Common.Models;
 
-int[] arrayInteiros = new int[3];
-
-arrayInteiros[0] = 72;
-arrayInteiros[1] = 64;
-arrayInteiros[2] = 50;
-
-// Percorrendo com for
-Console.WriteLine("Percorrendo o array com o for");
-for (int contador = 0; contador < arrayInteiros.Length; contador++)
+var nomes = new List<string> { "< nome>", "Paulo", "Pedro" };
+foreach (var nome in nomes)
 {
-    Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
-}
-
-// Percorrendo com foreach
-int contadorForEach = 0;
-Console.WriteLine("Percorrendo o array com o foreach");
-foreach (int valor in arrayInteiros)
-{
-    Console.WriteLine($"Posição Nº {contadorForEach} - {arrayInteiros[contadorForEach]}");
-    contadorForEach++;
+    Console.WriteLine($"Bom dia, {nome}!");
 }
 
 
@@ -28,6 +12,28 @@ foreach (int valor in arrayInteiros)
 
 
 
+
+// int[] arrayInteiros = new int[3];
+
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 50;
+
+// // Percorrendo com for
+// Console.WriteLine("Percorrendo o array com o for");
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+// }
+
+// // Percorrendo com foreach
+// int contadorForEach = 0;
+// Console.WriteLine("Percorrendo o array com o foreach");
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição Nº {contadorForEach} - {arrayInteiros[contadorForEach]}");
+//     contadorForEach++;
+// }
 
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
